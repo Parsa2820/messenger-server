@@ -140,7 +140,7 @@ void JSONc_printUnformatted2Console(JSONc *source)
 
 char *JSONc_printUnformatted (JSONc *source)
 {
-    char *result = calloc(1, 100);
+    char *result = calloc(1, 1000);
     if (source -> type == single)
     {
         if (strcmp(source -> name, ""))
